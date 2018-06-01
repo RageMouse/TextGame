@@ -1,0 +1,9 @@
+C:\Users\Dennis\source\repos\TextGame\TextGame.Domain\bin\Debug\netcoreapp2.0\TextGame.Domain.deps.json
+C:\Users\Dennis\source\repos\TextGame\TextGame.Domain\bin\Debug\netcoreapp2.0\TextGame.Domain.dll
+C:\Users\Dennis\source\repos\TextGame\TextGame.Domain\bin\Debug\netcoreapp2.0\TextGame.Domain.pdb
+C:\Users\Dennis\source\repos\TextGame\TextGame.Domain\obj\Debug\netcoreapp2.0\TextGame.Domain.csprojAssemblyReference.cache
+C:\Users\Dennis\source\repos\TextGame\TextGame.Domain\obj\Debug\netcoreapp2.0\TextGame.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Dennis\source\repos\TextGame\TextGame.Domain\obj\Debug\netcoreapp2.0\TextGame.Domain.AssemblyInfoInputs.cache
+C:\Users\Dennis\source\repos\TextGame\TextGame.Domain\obj\Debug\netcoreapp2.0\TextGame.Domain.AssemblyInfo.cs
+C:\Users\Dennis\source\repos\TextGame\TextGame.Domain\obj\Debug\netcoreapp2.0\TextGame.Domain.dll
+C:\Users\Dennis\source\repos\TextGame\TextGame.Domain\obj\Debug\netcoreapp2.0\TextGame.Domain.pdb

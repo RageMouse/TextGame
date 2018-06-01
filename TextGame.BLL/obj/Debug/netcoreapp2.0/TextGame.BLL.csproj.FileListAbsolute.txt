@@ -1,0 +1,14 @@
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\bin\Debug\netcoreapp2.0\TextGame.BLL.deps.json
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\bin\Debug\netcoreapp2.0\TextGame.BLL.dll
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\bin\Debug\netcoreapp2.0\TextGame.BLL.pdb
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\bin\Debug\netcoreapp2.0\TextGame.DAL.dll
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\bin\Debug\netcoreapp2.0\TextGame.Domain.dll
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\bin\Debug\netcoreapp2.0\TextGame.DAL.pdb
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\bin\Debug\netcoreapp2.0\TextGame.Domain.pdb
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\obj\Debug\netcoreapp2.0\TextGame.BLL.csprojAssemblyReference.cache
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\obj\Debug\netcoreapp2.0\TextGame.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\obj\Debug\netcoreapp2.0\TextGame.BLL.AssemblyInfoInputs.cache
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\obj\Debug\netcoreapp2.0\TextGame.BLL.AssemblyInfo.cs
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\obj\Debug\netcoreapp2.0\TextGame.BLL.csproj.CopyComplete
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\obj\Debug\netcoreapp2.0\TextGame.BLL.dll
+C:\Users\Dennis\source\repos\TextGame\TextGame.BLL\obj\Debug\netcoreapp2.0\TextGame.BLL.pdb

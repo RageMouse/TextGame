@@ -1,0 +1,11 @@
+c:\users\dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\TextGame.deps.json
+c:\users\dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\TextGame.runtimeconfig.json
+c:\users\dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\TextGame.runtimeconfig.dev.json
+c:\users\dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\TextGame.dll
+c:\users\dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\TextGame.pdb
+c:\users\dennis\source\repos\TextGame\TextGame\obj\Debug\netcoreapp2.0\TextGame.csprojResolveAssemblyReference.cache
+c:\users\dennis\source\repos\TextGame\TextGame\obj\Debug\netcoreapp2.0\TextGame.csproj.CoreCompileInputs.cache
+c:\users\dennis\source\repos\TextGame\TextGame\obj\Debug\netcoreapp2.0\TextGame.AssemblyInfoInputs.cache
+c:\users\dennis\source\repos\TextGame\TextGame\obj\Debug\netcoreapp2.0\TextGame.AssemblyInfo.cs
+c:\users\dennis\source\repos\TextGame\TextGame\obj\Debug\netcoreapp2.0\TextGame.dll
+c:\users\dennis\source\repos\TextGame\TextGame\obj\Debug\netcoreapp2.0\TextGame.pdb

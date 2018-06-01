@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+@model TextGame.Web.Models.CharacterViewModel
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<div class="form-group">
+    @Html.LabelFor(model => model.Characters, htmlAttributes: new { @class = "control-label col-md-2" })
+    <div class="col-md-10">
+        @Html.DropDownListFor(model => model.character, new SelectList(Model.Characters),
+            new { htmlAttributes = new { @class = "form-control " } })
+        @Html.ValidationMessageFor(model => model.character, "", new { @class = "text-danger" })
+    </div>
+</div>
