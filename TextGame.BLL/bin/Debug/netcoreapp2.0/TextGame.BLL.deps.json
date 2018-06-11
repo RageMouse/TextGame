@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v2.0": {
       "TextGame.BLL/1.0.0": {
         "dependencies": {
-          "TextGame.DAL": "1.0.0"
+          "TextGame.DAL": "1.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.2.0"
         },
         "runtime": {
           "TextGame.BLL.dll": {}
@@ -16,15 +17,26 @@
       },
       "TextGame.DAL/1.0.0": {
         "dependencies": {
+          "TextGame.DAL.Interface": "1.0.0",
           "TextGame.Domain": "1.0.0"
         },
         "runtime": {
           "TextGame.DAL.dll": {}
         }
       },
+      "TextGame.DAL.Interface/1.0.0": {
+        "runtime": {
+          "TextGame.DAL.Interface.dll": {}
+        }
+      },
       "TextGame.Domain/1.0.0": {
         "runtime": {
           "TextGame.Domain.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.0.2.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Http.Abstractions.dll": {}
         }
       }
     }
@@ -40,8 +52,18 @@
       "serviceable": false,
       "sha512": ""
     },
+    "TextGame.DAL.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "TextGame.Domain/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.0.2.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

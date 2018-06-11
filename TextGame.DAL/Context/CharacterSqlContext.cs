@@ -10,6 +10,7 @@ namespace TextGame.DAL.Context
 {
     public class CharacterSqlContext:ICharacterContext
     {
+
         public List<String> GetAllPlayerNames()
         {
             List<string> PlayerNames = new List<string>();
@@ -43,8 +44,9 @@ namespace TextGame.DAL.Context
             }
         }
 
-        public bool CreateCharacter()
+        public bool CreateCharacter(Character character)
         {
+            //
             throw new System.NotImplementedException();
         }
     }

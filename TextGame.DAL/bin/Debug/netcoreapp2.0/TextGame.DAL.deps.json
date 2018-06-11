@@ -8,11 +8,17 @@
     ".NETCoreApp,Version=v2.0": {
       "TextGame.DAL/1.0.0": {
         "dependencies": {
+          "TextGame.DAL.Interface": "1.0.0",
           "TextGame.Domain": "1.0.0",
           "System.Data.SqlClient": "4.2.0.2"
         },
         "runtime": {
           "TextGame.DAL.dll": {}
+        }
+      },
+      "TextGame.DAL.Interface/1.0.0": {
+        "runtime": {
+          "TextGame.DAL.Interface.dll": {}
         }
       },
       "TextGame.Domain/1.0.0": {
@@ -29,6 +35,11 @@
   },
   "libraries": {
     "TextGame.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TextGame.DAL.Interface/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

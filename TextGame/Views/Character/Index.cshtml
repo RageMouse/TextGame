@@ -1,10 +1,16 @@
-﻿@{
+﻿@using TextGame.Web.Models
+@model TextGame.Web.Models.CharacterViewModel
+@{
     ViewData["Title"] = "Characters";
 }
-@model TextGame.Web.Models.CharacterViewModel
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
 
+<h2>index</h2>
+<div class="row">
+    <div class="col-12 text-right">
+
+        @Html.ActionLink("Character Aanmaken", "Create", "Character", new { @class = "btn btn-dark" })
+    </div>
+</div>
 <div class="form-group">
     @Html.LabelFor(model => model.Characters, htmlAttributes: new { @class = "control-label col-md-2" })
     <div class="col-md-10">

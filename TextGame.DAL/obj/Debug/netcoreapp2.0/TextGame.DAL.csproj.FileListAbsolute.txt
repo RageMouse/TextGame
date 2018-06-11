@@ -12,3 +12,5 @@ C:\Users\Dennis\source\repos\TextGame\TextGame.DAL\obj\Debug\netcoreapp2.0\TextG
 C:\Users\Dennis\source\repos\TextGame\TextGame.DAL\obj\Debug\netcoreapp2.0\TextGame.DAL.csproj.CopyComplete
 C:\Users\Dennis\source\repos\TextGame\TextGame.DAL\obj\Debug\netcoreapp2.0\TextGame.DAL.dll
 C:\Users\Dennis\source\repos\TextGame\TextGame.DAL\obj\Debug\netcoreapp2.0\TextGame.DAL.pdb
+C:\Users\Dennis\source\repos\TextGame\TextGame.DAL\bin\Debug\netcoreapp2.0\TextGame.DAL.Interface.dll
+C:\Users\Dennis\source\repos\TextGame\TextGame.DAL\bin\Debug\netcoreapp2.0\TextGame.DAL.Interface.pdb

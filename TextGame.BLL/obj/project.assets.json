@@ -201,6 +201,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
+          "TextGame.DAL.Interface": "1.0.0",
           "TextGame.Domain": "1.0.0"
         },
         "compile": {
@@ -208,6 +209,16 @@
         },
         "runtime": {
           "bin/placeholder/TextGame.DAL.dll": {}
+        }
+      },
+      "TextGame.DAL.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TextGame.DAL.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TextGame.DAL.Interface.dll": {}
         }
       },
       "TextGame.Domain/1.0.0": {
@@ -684,6 +695,11 @@
       "type": "project",
       "path": "../TextGame.DAL/TextGame.DAL.csproj",
       "msbuildProject": "../TextGame.DAL/TextGame.DAL.csproj"
+    },
+    "TextGame.DAL.Interface/1.0.0": {
+      "type": "project",
+      "path": "../TextGame.DAL.Interface/TextGame.DAL.Interface.csproj",
+      "msbuildProject": "../TextGame.DAL.Interface/TextGame.DAL.Interface.csproj"
     },
     "TextGame.Domain/1.0.0": {
       "type": "project",

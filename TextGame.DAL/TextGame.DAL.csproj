@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TextGame.DAL.Interface\TextGame.DAL.Interface.csproj" />
     <ProjectReference Include="..\TextGame.Domain\TextGame.Domain.csproj" />
   </ItemGroup>
 

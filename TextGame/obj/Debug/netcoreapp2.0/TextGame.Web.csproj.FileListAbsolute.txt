@@ -16,3 +16,13 @@ C:\Users\Dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\TextGame.
 C:\Users\Dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\TextGame.DAL.pdb
 C:\Users\Dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\TextGame.Domain.pdb
 C:\Users\Dennis\source\repos\TextGame\TextGame\obj\Debug\netcoreapp2.0\TextGame.Web.csproj.CopyComplete
+C:\Users\Dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\System.Windows.Forms.dll
+C:\Users\Dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\Accessibility.dll
+C:\Users\Dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\System.Deployment.dll
+C:\Users\Dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\System.Runtime.Serialization.Formatters.Soap.dll
+C:\Users\Dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\System.Windows.Forms.xml
+C:\Users\Dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\Accessibility.xml
+C:\Users\Dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\System.Deployment.xml
+C:\Users\Dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\System.Runtime.Serialization.Formatters.Soap.xml
+C:\Users\Dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\TextGame.DAL.Interface.dll
+C:\Users\Dennis\source\repos\TextGame\TextGame\bin\Debug\netcoreapp2.0\TextGame.DAL.Interface.pdb

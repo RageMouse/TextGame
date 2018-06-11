@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using TextGame.Domain;
 
-namespace TextGame.DAL.Repositories
+namespace TextGame.DAL.Interface
 {
     public interface IRepositoryInterface
     {

@@ -197,6 +197,16 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "TextGame.DAL.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TextGame.DAL.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TextGame.DAL.Interface.dll": {}
+        }
+      },
       "TextGame.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -667,6 +677,11 @@
         "netstandard.library.nuspec"
       ]
     },
+    "TextGame.DAL.Interface/1.0.0": {
+      "type": "project",
+      "path": "../TextGame.DAL.Interface/TextGame.DAL.Interface.csproj",
+      "msbuildProject": "../TextGame.DAL.Interface/TextGame.DAL.Interface.csproj"
+    },
     "TextGame.Domain/1.0.0": {
       "type": "project",
       "path": "../TextGame.Domain/TextGame.Domain.csproj",
@@ -676,6 +691,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NETCore.App >= 2.0.0",
+      "TextGame.DAL.Interface >= 1.0.0",
       "TextGame.Domain >= 1.0.0"
     ]
   },
@@ -709,6 +725,9 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
+            "C:\\Users\\Dennis\\source\\repos\\TextGame\\TextGame.DAL.Interface\\TextGame.DAL.Interface.csproj": {
+              "projectPath": "C:\\Users\\Dennis\\source\\repos\\TextGame\\TextGame.DAL.Interface\\TextGame.DAL.Interface.csproj"
+            },
             "C:\\Users\\Dennis\\source\\repos\\TextGame\\TextGame.Domain\\TextGame.Domain.csproj": {
               "projectPath": "C:\\Users\\Dennis\\source\\repos\\TextGame\\TextGame.Domain\\TextGame.Domain.csproj"
             }
