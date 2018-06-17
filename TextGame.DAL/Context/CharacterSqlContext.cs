@@ -44,10 +44,61 @@ namespace TextGame.DAL.Context
             }
         }
 
+        public List<string> GetAllPlayerNamesSpecializations()
+        {
+            List<string> PlayerNames = new List<string>();
+            try
+            {
+                using (SqlConnection connection = Database.getConnection())
+                {
+                    connection.Open();
+                    using (SqlCommand command = new SqlCommand("dbo.USPGetAllCharacterNamesSpeciliazation", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                while (reader.Read())
+                                {
+                                    PlayerNames.Add(reader.GetString((0)));
+                                }
+                            }
+                        }
+                    }
+                }
+
+                return PlayerNames;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return null;
+            }
+        }
+
         public bool CreateCharacter(Character character)
         {
-            //
-            throw new System.NotImplementedException();
+            try
+            {
+                using (SqlConnection connection = Database.getConnection())
+                {
+                    connection.Open();
+                    using (SqlCommand command = new SqlCommand("dbo.USPCreateCharacter", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.AddWithValue("Naam", character.Name);
+                        command.Parameters.AddWithValue("PlayedOn", character.PlayedOn);
+                        command.ExecuteNonQuery();
+                        return true;
+                    }
+            }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return false;
+            }
         }
     }
 }

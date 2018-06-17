@@ -22,7 +22,17 @@ namespace TextGame.DAL.Repositories
             throw new NotImplementedException();
         }
 
+        public bool CreateCharacter(Character character)
+        {
+            return _characterContext.CreateCharacter(character);
+        }
+
         public List<String> GetAllPlayerNames()
+        {
+            return _characterContext.GetAllPlayerNames();
+        }
+
+        public List<String> GetAllPlayerNamesSpecialization()
         {
             return _characterContext.GetAllPlayerNames();
         }

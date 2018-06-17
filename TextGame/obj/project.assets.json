@@ -2651,6 +2651,9 @@
           "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
         }
       },
+      "Microsoft.VisualStudio.QualityTools.UnitTestFramework/11.0.50727.1": {
+        "type": "package"
+      },
       "Microsoft.VisualStudio.Web.BrowserLink/2.0.2": {
         "type": "package",
         "dependencies": {
@@ -5059,6 +5062,9 @@
       "TextGame.DAL.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "TextGame.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/TextGame.DAL.Interface.dll": {}
         },
@@ -7664,6 +7670,19 @@
         "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.xml",
         "microsoft.rest.clientruntime.azure.3.3.7.nupkg.sha512",
         "microsoft.rest.clientruntime.azure.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.QualityTools.UnitTestFramework/11.0.50727.1": {
+      "sha512": "MM3IUKZ11zbZA658hkGnAgf2Br58ZOWExCLevemDlw+xKgh5pgWO5stPSZM50w4bt0WzQ8DzKAA8N7yBxa8u8A==",
+      "type": "package",
+      "path": "microsoft.visualstudio.qualitytools.unittestframework/11.0.50727.1",
+      "files": [
+        "MSTest.exe",
+        "MSTest.exe.config",
+        "Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll",
+        "Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml",
+        "microsoft.visualstudio.qualitytools.unittestframework.11.0.50727.1.nupkg.sha512",
+        "microsoft.visualstudio.qualitytools.unittestframework.nuspec"
       ]
     },
     "Microsoft.VisualStudio.Web.BrowserLink/2.0.2": {
@@ -13188,6 +13207,7 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.7",
       "Microsoft.NETCore.App >= 2.0.0",
+      "Microsoft.VisualStudio.QualityTools.UnitTestFramework >= 11.0.50727.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.3",
       "TextGame.BLL >= 1.0.0",
       "TextGame.DAL >= 1.0.0",
@@ -13253,6 +13273,10 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "Microsoft.VisualStudio.QualityTools.UnitTestFramework": {
+            "target": "Package",
+            "version": "[11.0.50727.1, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",

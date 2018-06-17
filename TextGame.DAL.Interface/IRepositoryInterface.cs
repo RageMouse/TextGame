@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection.PortableExecutable;
+using TextGame.Domain;
 
 namespace TextGame.DAL.Interface
 {
@@ -7,6 +9,7 @@ namespace TextGame.DAL.Interface
     {
         List<String> GetAllCharacterNames();
 
+        bool CreateCharacter(Character character);
 
     }
 }

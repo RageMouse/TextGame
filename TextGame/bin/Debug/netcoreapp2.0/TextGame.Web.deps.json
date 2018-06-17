@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "96d964db9736f5516afaf64d3f7faffb3db136eb"
+    "signature": "32f3e027cc7f4b40a9e1d8f8a0e5ee3f4145f16e"
   },
   "compilationOptions": {
     "defines": [
@@ -25,6 +25,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.7",
           "Microsoft.NETCore.App": "2.0.0",
+          "Microsoft.VisualStudio.QualityTools.UnitTestFramework": "11.0.50727.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3",
           "TextGame.BLL": "1.0.0",
           "TextGame.DAL": "1.0.0",
@@ -2310,6 +2311,7 @@
           "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
         }
       },
+      "Microsoft.VisualStudio.QualityTools.UnitTestFramework/11.0.50727.1": {},
       "Microsoft.VisualStudio.Web.BrowserLink/2.0.2": {
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.2",
@@ -4081,6 +4083,9 @@
         }
       },
       "TextGame.DAL.Interface/1.0.0": {
+        "dependencies": {
+          "TextGame.Domain": "1.0.0"
+        },
         "runtime": {
           "TextGame.DAL.Interface.dll": {}
         },
@@ -5414,6 +5419,13 @@
       "sha512": "sha512-6u8JIuvrztse4tPOcvNzAJuzGBP0uY+Ijggk8ZYhp0siGEZ1XfZylf1vpNGUicvwcrhhoIgDW73Z1L6QGssr2g==",
       "path": "microsoft.rest.clientruntime.azure/3.3.7",
       "hashPath": "microsoft.rest.clientruntime.azure.3.3.7.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.QualityTools.UnitTestFramework/11.0.50727.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MM3IUKZ11zbZA658hkGnAgf2Br58ZOWExCLevemDlw+xKgh5pgWO5stPSZM50w4bt0WzQ8DzKAA8N7yBxa8u8A==",
+      "path": "microsoft.visualstudio.qualitytools.unittestframework/11.0.50727.1",
+      "hashPath": "microsoft.visualstudio.qualitytools.unittestframework.11.0.50727.1.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.BrowserLink/2.0.2": {
       "type": "package",

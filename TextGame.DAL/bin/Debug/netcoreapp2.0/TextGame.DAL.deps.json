@@ -17,6 +17,9 @@
         }
       },
       "TextGame.DAL.Interface/1.0.0": {
+        "dependencies": {
+          "TextGame.Domain": "1.0.0"
+        },
         "runtime": {
           "TextGame.DAL.Interface.dll": {}
         }

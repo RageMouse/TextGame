@@ -33,3 +33,25 @@
         display: none;
     }
 }
+
+.header {
+    color: red;
+}
+
+.div.maintekst {
+    text-align: center;
+}
+
+.divlogo {
+    display: grid;
+}
+
+.logo {
+    max-width: 1140px;
+    max-height: 720px;
+
+}
+
+.h1 {
+    color: blue;
+}

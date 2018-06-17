@@ -28,7 +28,7 @@ namespace TextGame.BLL
 
         public bool AddCharacter(Character character)
         {
-            return false;
+            return characterRepo.CreateCharacter(character);
         }
     }
 }   

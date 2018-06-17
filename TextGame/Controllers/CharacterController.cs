@@ -34,7 +34,7 @@ namespace TextGame.Web.Controllers
         public IActionResult Create(Character character)
         {
             bool used = _characterLogic.AddCharacter(character);
-            return null;
+            return RedirectToAction("Index");
         }
     }
 }

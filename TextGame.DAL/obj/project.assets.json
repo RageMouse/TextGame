@@ -200,6 +200,9 @@
       "TextGame.DAL.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "TextGame.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/TextGame.DAL.Interface.dll": {}
         },

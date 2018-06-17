@@ -8,7 +8,9 @@ namespace TextGame.DAL.ContextInterfaces
     public interface ICharacterContext
     {
         bool CreateCharacter(Character character);
+
         List<String> GetAllPlayerNames();
 
+        List<String> GetAllPlayerNamesSpecializations();
     }
 }

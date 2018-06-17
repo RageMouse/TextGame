@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextGame.Domain", "TextGame
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextGame.BLL", "TextGame.BLL\TextGame.BLL.csproj", "{E7C0CE53-DBFC-4901-81B9-2104323C3367}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextGame.DAL.Interface", "TextGame.DAL.Interface\TextGame.DAL.Interface.csproj", "{B11F47A8-B245-4146-8D4D-D6AEA19CA619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextGame.DAL.Interface", "TextGame.DAL.Interface\TextGame.DAL.Interface.csproj", "{B11F47A8-B245-4146-8D4D-D6AEA19CA619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextGame.BLL.IntegrationTest", "TextGame.BLL.IntegrationTest\TextGame.BLL.IntegrationTest.csproj", "{63C66891-686F-4BE7-B2A6-131BCC706CB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B11F47A8-B245-4146-8D4D-D6AEA19CA619}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B11F47A8-B245-4146-8D4D-D6AEA19CA619}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B11F47A8-B245-4146-8D4D-D6AEA19CA619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C66891-686F-4BE7-B2A6-131BCC706CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C66891-686F-4BE7-B2A6-131BCC706CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C66891-686F-4BE7-B2A6-131BCC706CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C66891-686F-4BE7-B2A6-131BCC706CB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
